@@ -225,7 +225,7 @@ body {
     position: static;
     display: block;
     margin: 10px auto 5px;
-    text-align: center;
+    text-align: right;
     font-size: 16px;
   }
 
@@ -239,7 +239,7 @@ body {
 
   .top-right-buttons {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     gap: 10px;
   }
 
