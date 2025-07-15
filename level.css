@@ -220,3 +220,71 @@ body {
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+@media (max-width: 768px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  .judul-utama {
+    margin-top: 100px;
+  }
+
+  .judul-utama h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  #nama-pengguna-label {
+    font-size: 16px;
+    padding: 6px 12px;
+    top: 15px;
+    left: 10px;
+  }
+
+  .top-bar {
+    padding: 8px 10px;
+  }
+
+  .top-right-buttons img {
+    width: 35px;
+    height: 35px;
+    padding: 3px;
+  }
+
+  .btn-reset-nama {
+    font-size: 14px;
+    padding: 6px 10px;
+    margin-top: 6px;
+  }
+
+  .container {
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .level-buttons button {
+    font-size: 20px;
+    padding: 12px 24px;
+    margin: 8px;
+  }
+
+  .popup-content {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  #popup-profil img {
+    width: 90px;
+    height: 90px;
+  }
+
+  #popup-profil p {
+    font-size: 16px;
+  }
+
+  #popup-close {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
