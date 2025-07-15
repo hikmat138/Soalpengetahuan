@@ -244,11 +244,13 @@ body {
   .top-right-buttons img {
     width: 28px;
     height: 28px;
+    justify-content: right;
   }
 
   .btn-reset-nama {
     font-size: 14px;
     padding: 6px 10px;
+    justify-content: right;
   }
   .judul-utama h1 {
     font-size: 24px;
