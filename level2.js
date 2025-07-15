@@ -25,7 +25,7 @@ const soalLevel2 = [
   { pertanyaan: "Indonesia disebut negara agraris karena sebagian besar penduduknya bekerja di bidang ?", jawaban: "pertanian" },
   { pertanyaan: "Nelayan adalah contoh pekerjaan manusia yang tinggal di daerah?", jawaban: "Pantai" },
   { pertanyaan: "Apa nama presiden pertama Indonesia?", jawaban: "Soekarno" },
-  { pertanyaan: "Kegiatan ekonomi yang menghasilkan barang disebut kegiatan?", jawaban: " produksi" },
+  { pertanyaan: "Kegiatan ekonomi yang menghasilkan barang disebut kegiatan?", jawaban: "produksi" },
   { pertanyaan: "Laut, sungai, dan hutan adalah contoh sumber daya alam yang ada di ...", jawaban: "lingkungan sekitar" },
   { pertanyaan: "Indonesia disebut negara maritim karena memiliki wilayah laut yang sangat ...", jawaban: "luas" },
   { pertanyaan: "Kegiatan menjual hasil pertanian di pasar termasuk dalam kegiatan ekonomi berupa ...", jawaban: "distribusi" },
