@@ -19,7 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
     <p>Setiap level berisi 10 soal.</p>
     <p>Nilai tiap level adalah 10 poin.</p>
     <p>Di akhir akan muncul skor akhir dan rata-rata.</p>
-    <p>Tidak ada remedial, kerjakan dengan sungguh-sungguh!</p>
+    <p>kerjakan dengan sungguh-sungguh!</p>
   `;
 
   document.getElementById("tutup-petunjuk").addEventListener("click", () => {
