@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Tombol informasi
   document.querySelector(".btn-information")?.addEventListener("click", () => {
-    alert("Game Pengetahuan Umum interaktif untuk siswa kelas 5 SD.\nJawaban bisa berupa pilihan ganda, isian, atau drag-and-drop.");
+    alert("Game Pengetahuan Umum interaktif untuk siswa SD.\nJawaban bisa berupa pilihan ganda, isian, atau ceklis.");
   });
 
   // Tombol utama "PENGETAHUAN UMUM" → munculkan popup input nama
