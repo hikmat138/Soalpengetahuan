@@ -368,19 +368,72 @@ body {
   border-color: #0056b3;
 }
 
-@media (max-width: 600px) {
-  .opsi-check-item {
+@media (max-width: 480px) {
+  /* Susun ulang nama pengguna */
+  #nama-pengguna-label {
+    position: static !important;
+    margin: 10px auto 5px;
+    text-align: center;
     font-size: 16px;
-    padding: 8px 12px;
+    background-color: rgba(0, 128, 0, 0.9);
+    z-index: 1;
   }
 
-  #jawaban-input {
+  /* Susun ulang top bar agar tidak bertumpuk */
+  .top-bar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 0;
+  }
+
+  .top-right-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .top-right-buttons img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .btn-reset-nama {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  /* Judul besar biar nggak nabrak */
+  .judul-utama h1 {
+    font-size: 26px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0 12px;
+    line-height: 1.2em;
+  }
+
+  /* Area soal lebih fleksibel */
+  .soal-container {
+    padding: 20px 12px;
     font-size: 16px;
+  }
+
+  .soal-container p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .jawaban button {
+    font-size: 15px;
     padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
   }
 
-  #next-button {
-    font-size: 16px;
-    padding: 10px 18px;
+  .btn-next {
+    font-size: 14px;
+    padding: 10px 20px;
   }
 }
+
