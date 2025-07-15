@@ -406,8 +406,8 @@ body {
 
   /* Judul besar biar nggak nabrak */
   .judul-utama h1 {
-    font-size: 24px;
-    margin-top: 5px;
+    font-size: 26px;
+    margin-top: 10px;
     text-align: center;
     padding: 0 12px;
     line-height: 1.2em;
