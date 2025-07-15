@@ -376,7 +376,7 @@ body {
   }
 
   .judul-utama h1 {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 1.3;
     padding: 0 10px;
   }
@@ -391,13 +391,13 @@ body {
   .top-bar {
     padding: 10px 10px;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     gap: 6px;
   }
 
   .top-right-buttons {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     gap: 8px;
   }
 
