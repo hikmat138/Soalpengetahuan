@@ -221,50 +221,50 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 480px) {
-  #nama-pengguna-label {
-    font-size: 14px;
-    padding: 6px 12px;
-    left: 2px;
+  .top-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    padding: 10px 10px;
+    z-index: 999;
   }
 
-  .top-bar {
-    padding: 10px 10px;
-    flex-direction: column;
-    align-items: right;
-    gap: 6px;
+  #nama-pengguna-label {
+    position: relative;
+    text-align: left;
+    font-size: 16px;
+    background-color: rgba(0, 128, 0, 0.9);
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 8px;
   }
 
   .top-right-buttons {
-    flex-wrap: wrap;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     gap: 8px;
+    width: 100%;
   }
 
   .top-right-buttons img {
-    width: 28px;
-    height: 28px;
-    right: 2px;
+    width: 30px;
+    height: 30px;
   }
 
   .btn-reset-nama {
     font-size: 14px;
-    padding: 10px 50px;
-    right: 2px;
+    padding: 6px 10px;
+    flex-shrink: 0;
   }
+
+  .judul-utama {
+    margin-top: 120px; /* tambahkan ruang agar tidak ketimpa */
+  }
+
   .judul-utama h1 {
     font-size: 24px;
     text-align: center;
-    padding: 0 10px;
-  }
-
-  .level-buttons button {
-    font-size: 20px;
-    padding: 10px 20px;
-    width: 80%;
-  }
-
-  .container {
-    margin-top: 30px;
   }
 }
 
