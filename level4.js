@@ -152,7 +152,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
         const nama = localStorage.getItem("nama_pengguna") || "Siswa";
         const pesanWA = `Halo, saya ${nama}. Skor saya ${skor}/100. Rata-rata saya: ${rataRata}`;
-        const linkWA = `https://wa.me/62859106919534?text=${encodeURIComponent(pesanWA)}`;
+        const linkWA = `https://wa.me/6287841674103?text=${encodeURIComponent(pesanWA)}`;
         document.getElementById("kirim-wa").href = linkWA;
 
         document.getElementById("keluar-index").addEventListener("click", () => {
