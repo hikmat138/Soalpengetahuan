@@ -54,7 +54,7 @@ window.addEventListener("DOMContentLoaded", () => {
     { soal: "Umur Dita lebih tua dari Rani, dan Rani lebih tua dari Nia. Siapakah yang paling muda?", jawaban: "Nia" },
     { soal: "Riko mulai belajar pukul 18.45 dan selesai pukul 19.30. Berapa menit Riko belajar?", jawaban: "45 menit" },
     { soal: "Usia Lani dua kali usia adiknya. Jika jumlah umur mereka 18 tahun, berapa usia adik Lani?", jawaban: "6 tahun" },
-    { soal: "Sebuah kotak berisi 20 permen akan dibagikan sama rata ke 4 anak. Setiap anak mendapat ...", jawaban: " 5 permen" },
+    { soal: "Sebuah kotak berisi 20 permen akan dibagikan sama rata ke 4 anak. Setiap anak mendapat ...", jawaban: "5 permen" },
     { soal: "Data nilai ulangan: 80, 85, 80, 90, 80, 85. Nilai yang paling sering muncul (modus) adalah ...", jawaban: "80" },
     { soal: "Jumlah hari dalam 12 minggu adalah:", jawaban: "84" }
   ];
